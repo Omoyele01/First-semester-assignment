@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    
+        th,
+        td {
+               border: 2px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    
+        th {
+    background-color: #2a08e9;
+        }
+    
+        caption {
+            font-size: 1.5em;
+            front-weight: bold;
+            margin-bottom: 0.5em;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+<caption>Student Grades</caption> 
+<thead>
+    <tr>
+        <th>Student Name</th>
+        <th>Student Grade</th>
+        <th>Student Address</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>John</td>
+        <td>85</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Emily</td>
+        <td>92</td>
+    </tr>
+    <tr>
+   <!--<td>James</td>--> 
+    <td>89</td>
+    </tr>
+    <td colspan="2">Altschool Student 1</td>
+      <td>Tivoli Gardens</td>  
+</tr>
+<tr>
+    <td>data 1</td>
+    <td>data 2</td>
+    <td>data 3</td>
+</tr>
+<tr>
+    
+    <td colspan="2"> data 1</td>
+    <td>data 2</td>
+</tr>
+<table>
+    <caption>Alt Alumni</caption>
+    <thead>
+        <tr>
+          <th rowspan="2"  id="name" scope="col">Name</th>
+          <th colspan="2" id="path">career path</th>
+          <th rowspan="2" id="Year">Year</th>
+        </tr>
+        <tr>
+            <th id="past" scope="col">past</th>
+            <th id="future" scope="col">Destiny</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th id="hal" scope="row">Hal Gibrah</th>
+<td headers="hal path past">Calculator</td>
+<td headers="hal path future">Mars rover</td>
+<td>2020</td>
+        </tr>
+        <tr>
+            <th id="cathy" scope="row">James Bond</th>
+            <td headers="cathy path past">Waste disposal</td>
+            <td headers="cathy past future">Automated teller</td>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <th id="cathy" scope="row">Lou Minious</th>
+            <td headers="cathy path past">Lightbulb</td>
+            <td headers="cathy past future">Smart bulb</td>
+            <td>1956</td>
+        </tr>
+    </tbody>
+</table>
+
+</tbody>
+    </table>
+    
+
+  
+</body>
+</html>
+
+
+
+
+

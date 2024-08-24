@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Who is your favorite student?</legend>
+            <p>Select your favorite Student</p>
+            <ul>
+            <li>
+            <label>
+            <input type="radio" value="blendan" name="machine" required> Blendan Smooth
+            </label>
+            </li>
+            <li>
+            <label>
+            <input type="radio" value="hoover" name="machine" required> Hoover Sukhdeep
+            </label>
+            </li>
+            <li>
+            <label>
+            <input type="radio" value="toasty" name="machine" required> Toasty McToastface
+            </label>
+            </li>
+            </ul>
+            </fieldset>
+
+           <fieldset>
+            <legend>Who is your favorite student?</legend>
+            <p>Select your favorite color</p>
+            <ul>
+            <li>
+            <label>
+            <input type="radio" value="green" name="color" required> Green
+            </label>
+            </li>
+            <li>
+            <label>
+            <input type="radio" value="blue" name="machine" required> Blue
+            </label>
+            </li>
+            <li>
+            <label>
+            <input type="radio" value="red" name="machine" required> Red
+            </label>
+            </li>
+            </ul>
+            </fieldset> 
+            <label><input type="checkbox" name="terms" required> I agree to the terms and conditions </label>
+            <br/>
+            <button type="submit">Submit</button>
+    
+              
+    </form>
+    <style>
+        fieldset {
+            border: 1px solid black;
+        padding: 1em;
+    }
+        legend {
+            font-weight: bold;
+        }
+        ul{
+            list-style-type: none ;
+            padding: 0;
+        }
+        li{
+            margin-bottom: 1em;
+        }
+    </style>
+
+</body>
+</html>
